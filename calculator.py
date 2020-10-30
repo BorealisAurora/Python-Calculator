@@ -1,6 +1,3 @@
-#Import "time.sleep(n)"
-import time
-
 #Define functions
 def subtract(num1,num2):
     return num1 - num2
@@ -14,9 +11,7 @@ def divide(num1,num2):
 def multiply(num1,num2):
     return num1 * num2
 
-time.sleep(1)
 print("Select an operation from the list below:")
-time.sleep(1)
 print("1: Addition")
 print("2: Subtraction")
 print("3: Multiplication")
@@ -33,7 +28,7 @@ if choice == "2":
     print(num1, "-", num2,"=", subtract(num1,num2))
 
 if choice == "3":
-        print(num1, "*", num2,"=", multiply(num1,num2))
+    print(num1, "*", num2,"=", multiply(num1,num2))
 
 if choice == "4":
     print(num1, "/", num2,"=", divide(num1,num2))
